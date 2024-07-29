@@ -48,7 +48,7 @@ gs.tablefill(template = 'code/tables.tex',
 ### RUN SCRIPTS
 gs.run_latex(PATHS, program = 'code/paper.tex')
 gs.run_latex(PATHS, program = 'code/online_appendix.tex')
-gs.run_latex(PATHS, program = 'code/slides.tex')
+#gs.run_latex(PATHS, program = 'code/slides.tex')
 
 ### LOG OUTPUTS
 gs.log_files_in_output(PATHS)
