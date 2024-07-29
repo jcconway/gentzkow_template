@@ -1,4 +1,4 @@
-name: template #CHANGE for your project
+name: gentzkow_template #CHANGE for your project
 channels:
   - conda-forge
 dependencies:
