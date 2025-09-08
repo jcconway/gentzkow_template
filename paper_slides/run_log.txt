@@ -1,0 +1,34 @@
+nohup: ignoring input
+Removed: `C:\Users\Zhang\Desktop\BoothRP\gentzkow_template\paper_slides\input`
+Cleared: `output`
+Cleared: `log`
+Starting makelog file at: `C:\Users\Zhang\Desktop\BoothRP\gentzkow_template\paper_slides\log\make.log`
+Input copies successfully created!
+External copies successfully created!
+Source logs successfully written!
+WARNING! The following target files have been modified according to git status:
+C:\Users\Zhang\Desktop\BoothRP\gentzkow_template\data\output\chips_sold.pdf
+C:\Users\Zhang\Desktop\BoothRP\gentzkow_template\analysis\output\regression.csv
+Version logs successfully written!
+Executing command: `pdflatex -output-directory=..\latex_auxiliary_dir  "C:\Users\Zhang\Desktop\BoothRP\gentzkow_template\paper_slides\code\paper.tex"`
+Executing command: `pdflatex -output-directory=..\latex_auxiliary_dir  "C:\Users\Zhang\Desktop\BoothRP\gentzkow_template\paper_slides\code\online_appendix.tex"`
+Executing command: `pdflatex -output-directory=..\latex_auxiliary_dir  "C:\Users\Zhang\Desktop\BoothRP\gentzkow_template\paper_slides\code\slides.tex"`
+Traceback (most recent call last):
+  File "C:\Users\Zhang\Desktop\BoothRP\gentzkow_template\paper_slides\make.py", line 51, in <module>
+    gs.run_latex(PATHS, program = 'code/slides.tex')
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zhang\Desktop\BoothRP\gentzkow_template\paper_slides\..\lib\gslab_make\gslab_make\run_program.py", line 304, in run_latex
+    raise ProgramError(error_message, stderr)
+gslab_make.private.exceptionclasses.ProgramError: 
+
+*********************************************************************
+* LaTeX program executed with errors. Traceback can be found below. *
+*********************************************************************
+
+
+Sorry, but pdflatex did not succeed.
+
+The log file hopefully contains the information to get MiKTeX going again:
+
+  C:\Users\Zhang\AppData\Local\MiKTeX\miktex\log\pdflatex.log
+

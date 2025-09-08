@@ -1,4 +1,4 @@
 destination | source
-input/lib | /Users/shiqiyang/Documents/github_folders/template/lib
-input/tv.csv | /Users/shiqiyang/Documents/github_folders/template/raw/tv.csv
-input/chips.csv | /Users/shiqiyang/Documents/github_folders/template/raw/chips.csv
+input\lib | C:\Users\Zhang\Desktop\BoothRP\gentzkow_template\lib
+input\tv.csv | C:\Users\Zhang\Desktop\BoothRP\gentzkow_template\raw\tv.csv
+input\chips.csv | C:\Users\Zhang\Desktop\BoothRP\gentzkow_template\raw\chips.csv
